@@ -24,14 +24,14 @@ You will also need a valid Naptha SDK account. Sign up at **[Naptha SDK](https:/
 To start a Red Teaming attack simulation, run:
 
 ```sh
-python main.py --goal 0 --target target_1
+python run.py --goal 0 --target target_1
 ```
 
 ### Arguments
 | Argument | Type | Description |
 |----------|------|-------------|
 | `--goal` | int  | Attack goal (0: Bomb-making, 1: Software key retrieval) (more will be added...) |
-| `--target` | str  | Target AI agent name |
+| `--target` | str  | Target AI agent name (chatgpt, anthropic, gemini) |
 
 ## Architecture
 The project consists of the following key components:
