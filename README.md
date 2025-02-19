@@ -35,7 +35,7 @@ python run.py --goal 0 --target target_1
 
 ## Architecture
 The project consists of the following key components:
-- **`main.py`**: Entry point for running simulations.
+- **`run.py`**: Entry point for running simulations.
 - **`agent_instance.py`**: Handles agent interactions.
 - **`chat_agent.py`**: Implements a chat-based AI agent.
 - **`evaluator.py`**: Evaluates attack success.
